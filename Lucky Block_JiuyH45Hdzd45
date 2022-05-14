@@ -1,0 +1,380 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Lkrf56df8dkKU5DSdfdfXS4 = Instance.new("ScreenGui")
+local Gui = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local gamename = Instance.new("TextLabel")
+local bar = Instance.new("Frame")
+local listbuttons = Instance.new("TextLabel")
+local normal = Instance.new("TextButton")
+local super = Instance.new("TextButton")
+local diamond = Instance.new("TextButton")
+local rainbow = Instance.new("TextButton")
+local galaxy = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local reduce = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local LoadGui = Instance.new("Frame")
+local gamename_2 = Instance.new("TextLabel")
+local loadgui = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local bar_2 = Instance.new("Frame")
+local Open = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local open = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+
+--Properties:
+
+Lkrf56df8dkKU5DSdfdfXS4.Name = "Lkrf56df8dkKU5DSdfdfXS4"
+Lkrf56df8dkKU5DSdfdfXS4.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Lkrf56df8dkKU5DSdfdfXS4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Gui.Name = "Gui"
+Gui.Parent = Lkrf56df8dkKU5DSdfdfXS4
+Gui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Gui.Position = UDim2.new(0.444858432, 0, 0.35950923, 0)
+Gui.Size = UDim2.new(0, 147, 0, 229)
+Gui.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = Gui
+
+gamename.Name = "gamename"
+gamename.Parent = Gui
+gamename.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gamename.BackgroundTransparency = 1.000
+gamename.Size = UDim2.new(0, 147, 0, 19)
+gamename.Font = Enum.Font.SourceSans
+gamename.Text = "Lucky Block"
+gamename.TextColor3 = Color3.fromRGB(255, 255, 255)
+gamename.TextSize = 14.000
+
+bar.Name = "bar"
+bar.Parent = Gui
+bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bar.BorderColor3 = Color3.fromRGB(255, 255, 255)
+bar.Position = UDim2.new(0, 0, 0.0829694346, 0)
+bar.Size = UDim2.new(0, 147, 0, 0)
+
+listbuttons.Name = "listbuttons"
+listbuttons.Parent = Gui
+listbuttons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+listbuttons.BackgroundTransparency = 1.000
+listbuttons.Position = UDim2.new(0.115646258, 0, 0.117903933, 0)
+listbuttons.Size = UDim2.new(0, 114, 0, 22)
+listbuttons.Font = Enum.Font.SourceSans
+listbuttons.Text = "Open Lucky Blocks"
+listbuttons.TextColor3 = Color3.fromRGB(255, 255, 255)
+listbuttons.TextSize = 14.000
+
+normal.Name = "normal"
+normal.Parent = Gui
+normal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+normal.BorderColor3 = Color3.fromRGB(255, 255, 255)
+normal.Position = UDim2.new(0.115646258, 0, 0.266375542, 0)
+normal.Size = UDim2.new(0, 114, 0, 21)
+normal.Font = Enum.Font.SourceSans
+normal.Text = "Normal Lucky"
+normal.TextColor3 = Color3.fromRGB(255, 255, 255)
+normal.TextSize = 14.000
+
+super.Name = "super"
+super.Parent = Gui
+super.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+super.BorderColor3 = Color3.fromRGB(255, 255, 255)
+super.Position = UDim2.new(0.115646258, 0, 0.403493434, 0)
+super.Size = UDim2.new(0, 114, 0, 21)
+super.Font = Enum.Font.SourceSans
+super.Text = "Super Lucky"
+super.TextColor3 = Color3.fromRGB(255, 255, 255)
+super.TextSize = 14.000
+
+diamond.Name = "diamond"
+diamond.Parent = Gui
+diamond.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+diamond.BorderColor3 = Color3.fromRGB(255, 255, 255)
+diamond.Position = UDim2.new(0.115646258, 0, 0.540611267, 0)
+diamond.Size = UDim2.new(0, 114, 0, 21)
+diamond.Font = Enum.Font.SourceSans
+diamond.Text = "Diamond Lucky"
+diamond.TextColor3 = Color3.fromRGB(255, 255, 255)
+diamond.TextSize = 14.000
+
+rainbow.Name = "rainbow"
+rainbow.Parent = Gui
+rainbow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+rainbow.BorderColor3 = Color3.fromRGB(255, 255, 255)
+rainbow.Position = UDim2.new(0.115646258, 0, 0.695196569, 0)
+rainbow.Size = UDim2.new(0, 114, 0, 21)
+rainbow.Font = Enum.Font.SourceSans
+rainbow.Text = "Rainbow Lucky"
+rainbow.TextColor3 = Color3.fromRGB(255, 255, 255)
+rainbow.TextSize = 14.000
+
+galaxy.Name = "galaxy"
+galaxy.Parent = Gui
+galaxy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+galaxy.BorderColor3 = Color3.fromRGB(255, 255, 255)
+galaxy.Position = UDim2.new(0.115646258, 0, 0.841048062, 0)
+galaxy.Size = UDim2.new(0, 114, 0, 21)
+galaxy.Font = Enum.Font.SourceSans
+galaxy.Text = "Galaxy Lucky"
+galaxy.TextColor3 = Color3.fromRGB(255, 255, 255)
+galaxy.TextSize = 14.000
+
+close.Name = "close"
+close.Parent = Gui
+close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderColor3 = Color3.fromRGB(255, 255, 255)
+close.Position = UDim2.new(0.891156435, 0, 0, 0)
+close.Size = UDim2.new(0, 16, 0, 13)
+close.Font = Enum.Font.SourceSans
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 0, 0)
+close.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = close
+
+reduce.Name = "reduce"
+reduce.Parent = Gui
+reduce.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+reduce.BorderColor3 = Color3.fromRGB(255, 255, 255)
+reduce.Position = UDim2.new(0.78231287, 0, 0, 0)
+reduce.Size = UDim2.new(0, 16, 0, 13)
+reduce.Font = Enum.Font.SourceSans
+reduce.Text = "-"
+reduce.TextColor3 = Color3.fromRGB(0, 0, 255)
+reduce.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 15)
+UICorner_3.Parent = reduce
+
+LoadGui.Name = "Load Gui"
+LoadGui.Parent = Lkrf56df8dkKU5DSdfdfXS4
+LoadGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LoadGui.Position = UDim2.new(0.428464979, 0, 0.44785282, 0)
+LoadGui.Size = UDim2.new(0, 191, 0, 83)
+LoadGui.Visible = false
+
+gamename_2.Name = "gamename"
+gamename_2.Parent = LoadGui
+gamename_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+gamename_2.BackgroundTransparency = 1.000
+gamename_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+gamename_2.Size = UDim2.new(0, 191, 0, 20)
+gamename_2.Font = Enum.Font.SourceSans
+gamename_2.Text = "Detected : Lucky Block"
+gamename_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+gamename_2.TextSize = 14.000
+
+loadgui.Name = "loadgui"
+loadgui.Parent = LoadGui
+loadgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+loadgui.BackgroundTransparency = 1.000
+loadgui.Position = UDim2.new(0.0575916246, 0, 0.385542154, 0)
+loadgui.Size = UDim2.new(0, 170, 0, 37)
+loadgui.Font = Enum.Font.SourceSans
+loadgui.Text = "Load gui"
+loadgui.TextColor3 = Color3.fromRGB(255, 255, 255)
+loadgui.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 15)
+UICorner_4.Parent = LoadGui
+
+bar_2.Name = "bar"
+bar_2.Parent = LoadGui
+bar_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bar_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+bar_2.Position = UDim2.new(0, 0, 0.240963861, 0)
+bar_2.Size = UDim2.new(0, 191, 0, 0)
+
+Open.Name = "Open"
+Open.Parent = Lkrf56df8dkKU5DSdfdfXS4
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.Position = UDim2.new(-8.52763904e-09, 0, 0.434355855, 0)
+Open.Size = UDim2.new(0, 100, 0, 27)
+Open.Visible = false
+
+UICorner_5.CornerRadius = UDim.new(0, 15)
+UICorner_5.Parent = Open
+
+open.Name = "open"
+open.Parent = Open
+open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+open.BorderColor3 = Color3.fromRGB(255, 255, 255)
+open.Position = UDim2.new(-3.81469718e-08, 0, 0, 0)
+open.Size = UDim2.new(0, 100, 0, 27)
+open.Font = Enum.Font.SourceSans
+open.Text = "Open"
+open.TextColor3 = Color3.fromRGB(255, 255, 255)
+open.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 15)
+UICorner_6.Parent = open
+
+-- Scripts:
+
+local function AIKMWR_fake_script() -- Lkrf56df8dkKU5DSdfdfXS4.Script 
+	local script = Instance.new('Script', Lkrf56df8dkKU5DSdfdfXS4)
+
+	if game.PlaceId == 662417684 then
+		script.Parent["Load Gui"].Visible = true
+	end
+end
+coroutine.wrap(AIKMWR_fake_script)()
+local function ARYF_fake_script() -- normal.Script 
+	local script = Instance.new('Script', normal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+	end)
+end
+coroutine.wrap(ARYF_fake_script)()
+local function FTNGIQJ_fake_script() -- super.Script 
+	local script = Instance.new('Script', super)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").SpawnSuperBlock:FireServer()
+	end)
+end
+coroutine.wrap(FTNGIQJ_fake_script)()
+local function FOOJX_fake_script() -- diamond.Script 
+	local script = Instance.new('Script', diamond)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").SpawnDiamondBlock:FireServer()
+	end)
+end
+coroutine.wrap(FOOJX_fake_script)()
+local function JOLBSHT_fake_script() -- rainbow.Script 
+	local script = Instance.new('Script', rainbow)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").SpawnRainbowBlock:FireServer()
+	end)
+end
+coroutine.wrap(JOLBSHT_fake_script)()
+local function SKEGVG_fake_script() -- galaxy.Script 
+	local script = Instance.new('Script', galaxy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("ReplicatedStorage").SpawnGalaxyBlock:FireServer()
+	end)
+end
+coroutine.wrap(SKEGVG_fake_script)()
+local function OOWUIS_fake_script() -- close.Script 
+	local script = Instance.new('Script', close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+	
+end
+coroutine.wrap(OOWUIS_fake_script)()
+local function ACKMD_fake_script() -- reduce.Script 
+	local script = Instance.new('Script', reduce)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Open.Visible = true
+	end)
+end
+coroutine.wrap(ACKMD_fake_script)()
+local function RVJX_fake_script() -- Gui.Script 
+	local script = Instance.new('Script', Gui)
+
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+end
+coroutine.wrap(RVJX_fake_script)()
+local function EUIVBW_fake_script() -- loadgui.Script 
+	local script = Instance.new('Script', loadgui)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Gui.Visible = true
+	end)
+end
+coroutine.wrap(EUIVBW_fake_script)()
+local function NMKXW_fake_script() -- open.Script 
+	local script = Instance.new('Script', open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Gui.Visible = true
+	end)
+end
+coroutine.wrap(NMKXW_fake_script)()
